@@ -1,5 +1,5 @@
 # swampCTF 2025
-<img src="image.png" alt="swampCTF logo" width="300" height="300">
+<img src="images/image.png" alt="swampCTF logo" width="300" height="300">
 
 I was invited by my friend to join swampCTF 2025 this weekend. I immediately accpet the inviation just because the logo is soooooo CUTEEEE! >3<
 
