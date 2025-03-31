@@ -56,8 +56,21 @@ Final flag: `swampCTF{hackbackzip:pikeplace}`
 ### Proto Proto (214 pts)
 >Moto Moto likes you. But not enough to explain how his server works. We got a pcap of the client and server communicating. Can you figure out how the server works and retrieve the flag? chals.swampctf.com:44254
 
+![alt text](images/image14.png)
 
+From the network stream, It can be know that the client send flag.txt and the server respond with the flag through UDP.
 
+![alt text](images/image15.png)
+
+In order to get the real flag, copy the data where the flag.txt was sent and send it again using netcat with the payload `\x02\x08\x66\x6c\x61\x67\x2e\x74\x78\x74`
+
+![alt text](images/image16.png)
+
+With this payload and send it to chals.swampctf.com:44254 with netcat via UDP and the flag found!
+
+`swampCTF{r3v3r53_my_pr070_l1k3_m070_m070}`
+
+#
 
 ### Homework Help (50 pts)
  >I accidently lost some of my class notes! Can you help me recover it? (Note: Unzipped size is 4GB)
