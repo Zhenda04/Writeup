@@ -1,3 +1,3 @@
-# swampCTF
+# swampCTF 2025
 ![swampCTF logo](image.png)
 I was invited by my fried to join swampCTF
